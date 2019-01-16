@@ -11,11 +11,12 @@
 					<ul>
 						<li><strong>Entity- User</strong>
 							<ul>
-								<li>Attribute</li>
-								<li>Attribute</li>
-								<li>Attribute</li>
-								<li>Attribute</li>
-								<li>Attribute</li>
+								<li>userId (Primary Key)</li>
+								<li>userFirstName</li>
+								<li>userLastName</li>
+								<li>userAge</li>
+								<li>userCurrentEmployer</li>
+								<li>userEducation</li>
 							</ul>
 						</li>
 						<li><strong>Entity- Employer</strong>
