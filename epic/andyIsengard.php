@@ -23,6 +23,7 @@
 							<li><em>Phone:</em> Samsung Galaxy S8. </li>
 							<li><em>Mobile Browser:</em> Chrome.</li>
 						</ul>
+					</li>
 					<li><strong>Attitude and Behavior:</strong> Andy is a frequent social media user on other platforms, but she has not been actively networking professionally. She has few LinkedIn connections and only occasionally reads LinkedIn user postings.</li>
 					<li><strong>Needs and Features</strong>
 						<ul>
