@@ -38,6 +38,6 @@
 						<li>Reviews of employers on other sites are easily manipulated by employers and otherwise unreliable.</li>
 					</ul>
 				</ul>
-			<h2><a href="./index.php" target="_blank">Home Page</a></h2>
+			<a href="./index.php" target="_blank">Home Page</a>
 	</body>
 </html>

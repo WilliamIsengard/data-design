@@ -31,6 +31,6 @@
 					<li>John receives connection notification while browsing LinkedIn site and clicks MyNetwork button at top of page.</li>
 					<li>Server adds Andy to John's network and sends Andy notification that John accepted her request.</li>
 				</ul>
-			<h2><a href="./index.php" target="_blank">Home Page</a></h2>
+			<a href="./index.php" target="_blank">Home Page</a>
 	</body>
 </html>
