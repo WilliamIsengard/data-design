@@ -7,6 +7,52 @@
 	<body>
 		<h1>Data Design Project</h1>
 			<h2>Conceptual Model</h2>
+				<h3>Entities & Attributes</h3>
+					<ul>
+						<li><strong>Entity- User</strong>
+							<ul>
+								<li>Attribute</li>
+								<li>Attribute</li>
+								<li>Attribute</li>
+								<li>Attribute</li>
+								<li>Attribute</li>
+							</ul>
+						</li>
+						<li><strong>Entity- Employer</strong>
+							<ul>
+								<li>Attribute</li>
+								<li>Attribute</li>
+								<li>Attribute</li>
+								<li>Attribute</li>
+								<li>Attribute</li>
+							</ul>
+						</li>
+						<li><strong>Entity- Image</strong>
+							<ul>
+								<li>Attribute</li>
+								<li>Attribute</li>
+								<li>Attribute</li>
+								<li>Attribute</li>
+								<li>Attribute</li>
+							</ul>
+						</li>
+						<li><strong>Entity- Comment</strong>
+							<ul>
+								<li>Attribute</li>
+								<li>Attribute</li>
+								<li>Attribute</li>
+								<li>Attribute</li>
+								<li>Attribute</li>
+							</ul>
+						</li>
+					</ul>
+				<h3>Relationships</h3>
+					<ul>
+						<li>Relationship</li>
+						<li>Relationship</li>
+						<li>Relationship</li>
+						<li>Relationship</li>
+					</ul>
 			<a href="./index.php">Home Page</a>
 	</body>
 </html>
