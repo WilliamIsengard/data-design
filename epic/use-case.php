@@ -10,20 +10,17 @@
 				<p>As a user, Andy needs to network with key employees at local employers in her industry.</p>
 			<h2>Use Case</h2>
 				<ul>
-					<li><strong>Title:</strong> Andy Isengard</li>
-					<li><strong>Age:</strong> 26</li>
-					<li><strong>Gender:</strong> Female</li>
-					<li><strong>Occupation:</strong> Radiologic Technologist at Presbyterian Hospital Downtown</li>
-					<li><strong>Location:</strong> Albuquerque, NM</li>
-					<li><strong>Education:</strong> Associate's Degree</li>
-
-
-				<p>Andy has been at her current employer since graduating six months ago and is frustrated with her unstable and unpredictable schedule and part time hours. She needs to find a new workplace with a stable full-time schedule. Typical job posting sites are difficult to navigate and filled with low quality job postings.</p>
+					<li><strong>Title:</strong> Connecting with employees at desired company.</li>
+					<li><strong>Description:</strong> Andy wants to connect with current employees at a company she intends on applying.</li>
+					<li><strong>Name of User and Their Role:</strong> Andy, a 26-year old radiologic technologist wanting to change job locations.</li>
+					<li><strong>Usage Preconditions:</strong> Must have active LinkedIn account with completed profile and online access.</li>
+					<li><strong>Usage Postconditions:</strong> Connection request is sent to target user and Andy is notified when accepted.</li>
+				</ul>
 			<h2>Interaction Flow</h2>
 				<ul>
-					<li>Difficulty finding current job openings at local employers.</li>
-					<li>Employer job sites are clunky and difficult to navigate.</li>
-					<li>Job search websites are filled with unreliable and out of date job postings.</li>
+					<li></li>
+					<li></li>
+					<li></li>
 				</ul>
 	</body>
 </html>
