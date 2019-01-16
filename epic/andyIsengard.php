@@ -24,19 +24,21 @@
 							<li><em>Mobile Browser:</em> Chrome.</li>
 						</ul>
 					<li><strong>Attitude and Behavior:</strong> Andy is a frequent social media user on other platforms, but she has not been actively networking professionally. She has few LinkedIn connections and only occasionally reads LinkedIn user postings.</li>
-					<li><strong>Needs and Features</strong></li>
+					<li><strong>Needs and Features</strong>
 						<ul>
 							<li>Ability to network with local professionals in same field.</li>
 							<li>Access to quality job postings at local employers.</li>
 							<li>Wants to be able to ask questions about workplaces with current employees.</li>
 						</ul>
-					<li><strong>Frustrations</strong></li>
-					<ul>
-						<li>Difficulty finding current job openings at local employers.</li>
-						<li>Employer job sites are clunky and difficult to navigate.</li>
-						<li>Job search websites are filled with unreliable and out of date job postings.</li>
-						<li>Reviews of employers on other sites are easily manipulated by employers and otherwise unreliable.</li>
-					</ul>
+					</li>
+					<li><strong>Frustrations</strong>
+						<ul>
+							<li>Difficulty finding current job openings at local employers.</li>
+							<li>Employer job sites are clunky and difficult to navigate.</li>
+							<li>Job search websites are filled with unreliable and out of date job postings.</li>
+							<li>Reviews of employers on other sites are easily manipulated by employers and otherwise unreliable.</li>
+						</ul>
+					</li>
 				</ul>
 			<a href="./index.php">Home Page</a>
 	</body>
