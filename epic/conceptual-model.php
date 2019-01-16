@@ -2,9 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8"/>
-		<title>Basic Demo of project creation</title>
+		<title>Conceptual Model</title>
 	</head>
 	<body>
-		<h1>Deep Dive Fullstack Cohort</h1>
+		<h1>Data Design Project</h1>
+			<h2>Conceptual Model</h2>
 	</body>
 </html>
