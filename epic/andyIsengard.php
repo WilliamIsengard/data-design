@@ -23,7 +23,7 @@
 							<li><em>Phone:</em> Samsung Galaxy S8. </li>
 							<li><em>Mobile Browser:</em> Chrome.</li>
 						</ul>
-					<li><strong>Attitude and Behavior:</strong> Andy is a frequent social media user on other platforms, but she does not actively network for her profession. She occasionally reads articles users post, but does not post herself.</li>
+					<li><strong>Attitude and Behavior:</strong> Andy is a frequent social media user on other platforms, but she has not been actively networking professionally. She has few LinkedIn connections and only occasionally reads LinkedIn user postings.</li>
 					<li><strong>Needs and Features</strong></li>
 						<ul>
 							<li>Ability to network with local professionals in same field.</li>
@@ -35,7 +35,9 @@
 						<li>Difficulty finding current job openings at local employers.</li>
 						<li>Employer job sites are clunky and difficult to navigate.</li>
 						<li>Job search websites are filled with unreliable and out of date job postings.</li>
+						<li>Reviews of employers on other sites are easily manipulated by employers and otherwise unreliable.</li>
 					</ul>
 				</ul>
+			<h2><a href="./index.php" target="_blank">Home Page</a></h2>
 	</body>
 </html>
