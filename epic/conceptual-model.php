@@ -34,16 +34,15 @@
 						</ul>
 					<h4>Connection</h4>
 						<ul>
-							<li>connectionId (Primary Key)</li>
 							<li>connectionProfileConnectionId (Foreign Key)</li>
 							<li>connectionProfileID (Foreign Key)</li>
 							<li>connectionDate</li>
 						</ul>
 					<h4>Employee</h4>
 						<ul>
-							<li>employeeId (Primary Key)</li>
-							<li>employeeIdProfileEmployeeId (Foreign Key)</li>
-							<li>employeeIdDate</li>
+							<li>employeeEmployerID (Foreign Key)</li>
+							<li>employeeProfileID (Foreign Key)</li>
+							<li>employeeDate</li>
 						</ul>
 				<h3>Relationships</h3>
 					<ul>
