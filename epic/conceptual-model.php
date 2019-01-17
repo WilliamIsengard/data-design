@@ -38,19 +38,13 @@
 							<li>connectionProfileID (Foreign Key)</li>
 							<li>connectionDate</li>
 						</ul>
-					<h4>Employee</h4>
-						<ul>
-							<li>employeeEmployerID (Foreign Key)</li>
-							<li>employeeProfileID (Foreign Key)</li>
-							<li>employeeDate</li>
-						</ul>
 				<h3>Relationships</h3>
 					<ul>
-						<li>One <strong>Profile</strong> can have many <strong>Connections -(1 to n)</strong></li>
-						<li>One <strong>Profile</strong> can have many <strong>Employers -(1 to n)</strong></li>
-						<li>One <strong>Employer</strong> can have many <strong>Employees -(1 to n)</strong></li>
+						<li>Many <strong>Profiles</strong> can have many <strong>Connections -(m to n)</strong></li>
+						<li>Many <strong>Profiles</strong> can have many <strong>Employers -(m to n)</strong></li>
 						<li>Many <strong>Profiles</strong> can have many <strong>Connections -(m to n)</strong></li>
 					</ul>
+			<img src="entityRelationshpDiagram.png" alt="Entity Relationship Diagram" style="width:250px;height:250px;"/>
 			<a href="./index.php">Home Page</a>
 	</body>
 </html>
