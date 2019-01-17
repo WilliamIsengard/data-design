@@ -13,7 +13,6 @@
 							<li>profileId (Primary Key)</li>
 							<li>profileActivationToken</li>
 							<li>profileCurrentEmployer</li>
-							<li>profileConnectionId</li>
 							<li>profileEducation</li>
 							<li>profileEmail</li>
 							<li>profileFirstName</li>
@@ -33,8 +32,8 @@
 						</ul>
 					<h4>Connection</h4>
 						<ul>
-							<li>connectionProfileConnectionId (Foreign Key)</li>
-							<li>connectionProfileID (Foreign Key)</li>
+							<li>connectionSecondProfileId (Foreign Key)</li>
+							<li>connectionProfileId (Foreign Key)</li>
 							<li>connectionDate</li>
 						</ul>
 				<h3>Relationships</h3>

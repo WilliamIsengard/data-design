@@ -1,4 +1,4 @@
-ALTER DATABASE data-design.sql CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+ALTER DATABASE "data-design.sql" CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
 DROP TABLE IF EXISTS connection;
 DROP TABLE IF EXISTS employer;
@@ -7,8 +7,8 @@ DROP TABLE IF EXISTS profile;
 CREATE TABLE profile (
 	profileId BINARY(16) NOT NULL,
 	profileActivationToken CHAR(32),
+	profileFriends CHAR(97) NOT NULL,
 	profileCurrentEmployer VARCHAR(32),
-	profileConnectionID char(32),
 	profileEducation VARCHAR(128),
 	profileEmail VARCHAR(128),
 	profileFirstName VARCHAR(128) NOT NULL,
@@ -34,9 +34,9 @@ CREATE TABLE employer (
 );
 
 CREATE TABLE connection (
-	connectionProfileConnectionId BINARY(16) NOT NULL,
+	connectionSecondProfileID BINARY(16) NOT NULL,
 	connectionProfileId BINARY(16) NOT NULL,
 	connectionDate DATETIME(6) NOT NULL,
-	FOREIGN KEY(connectionProfileConnectionID) REFERENCES profile(profileConnectionId),
-	FOREIGN KEY(connectionProfileID) REFERENCES profile(profileId)
+	FOREIGN KEY(connectionProfileId) REFERENCES profile(profileId),
+	FOREIGN KEY(connectionSecondProfileID) REFERENCES profile(profileId)
 );
