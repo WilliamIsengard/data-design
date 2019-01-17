@@ -1,4 +1,4 @@
-ALTER DATABASE "data-design.sql" CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+ALTER DATABASE wisengard CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
 DROP TABLE IF EXISTS connection;
 DROP TABLE IF EXISTS employer;
@@ -7,7 +7,6 @@ DROP TABLE IF EXISTS profile;
 CREATE TABLE profile (
 	profileId BINARY(16) NOT NULL,
 	profileActivationToken CHAR(32),
-	profileFriends CHAR(97) NOT NULL,
 	profileCurrentEmployer VARCHAR(32),
 	profileEducation VARCHAR(128),
 	profileEmail VARCHAR(128),
