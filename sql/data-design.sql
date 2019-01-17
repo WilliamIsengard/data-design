@@ -34,11 +34,9 @@ CREATE TABLE employer (
 );
 
 CREATE TABLE connection (
-	tweetId BINARY(16) NOT NULL,
 	connectionProfileConnectionId BINARY(16) NOT NULL,
 	connectionProfileId BINARY(16) NOT NULL,
 	connectionDate DATETIME(6) NOT NULL,
 	FOREIGN KEY(connectionProfileConnectionID) REFERENCES profile(profileConnectionId),
-	FOREIGN KEY(connectionProfileID) REFERENCES profile(profileId),
-	PRIMARY KEY(tweetId)
+	FOREIGN KEY(connectionProfileID) REFERENCES profile(profileId)
 );
