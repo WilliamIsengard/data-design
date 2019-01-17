@@ -39,3 +39,6 @@ CREATE TABLE connection (
 	FOREIGN KEY(connectionProfileId) REFERENCES profile(profileId),
 	FOREIGN KEY(connectionSecondProfileID) REFERENCES profile(profileId)
 );
+
+INSERT INTO profile (profileId, profileActivationToken, profileCurrentEmployer, profileEducation, profileEmail, profileFirstName, profileHash, profileLastName, profileLocation)
+VALUES ('011011', 'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEF', 'CNM', 'Doctor', 'test@test.com', 'John', 'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFa', 'Doe', 'Albuquerque_NM');

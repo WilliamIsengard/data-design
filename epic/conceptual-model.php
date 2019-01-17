@@ -40,7 +40,7 @@
 					<ul>
 						<li>Many <strong>Profiles</strong> can have many <strong>Connections -(m to n)</strong></li>
 						<li>Many <strong>Profiles</strong> can have many <strong>Employers -(m to n)</strong></li>
-						<li>Many <strong>Profiles</strong> can have many <strong>Connections -(m to n)</strong></li>
+						<li>Many <strong>Connections</strong> can have many <strong>Profiles -(m to n)</strong></li>
 					</ul>
 				<h3>Entity Relationship Diagram</h3>
 					<img src="entityRelationshipDiagram.png" alt="Entity Relationship Diagram"/>
