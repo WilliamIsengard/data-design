@@ -16,7 +16,6 @@
 							<li>profileConnectionId</li>
 							<li>profileEducation</li>
 							<li>profileEmail</li>
-							<li>profileEmployeeId</li>
 							<li>profileFirstName</li>
 							<li>profileHash</li>
 							<li>profileLastName</li>
