@@ -44,7 +44,9 @@
 						<li>Many <strong>Profiles</strong> can have many <strong>Employers -(m to n)</strong></li>
 						<li>Many <strong>Profiles</strong> can have many <strong>Connections -(m to n)</strong></li>
 					</ul>
-			<img src="entityRelationshpDiagram.png" alt="Entity Relationship Diagram" style="width:250px;height:250px;"/>
+				<h3>Entity Relationship Diagram</h3>
+					<img src="entityRelationshpDiagram.png" alt="Entity Relationship Diagram"/>
+					<p></p>
 			<a href="./index.php">Home Page</a>
 	</body>
 </html>
