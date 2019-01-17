@@ -43,7 +43,7 @@
 						<li>Many <strong>Profiles</strong> can have many <strong>Connections -(m to n)</strong></li>
 					</ul>
 				<h3>Entity Relationship Diagram</h3>
-					<img src="entityRelationshpDiagram.png" alt="Entity Relationship Diagram"/>
+					<img src="entityRelationshipDiagram.png" alt="Entity Relationship Diagram"/>
 					<p></p>
 			<a href="./index.php">Home Page</a>
 	</body>
