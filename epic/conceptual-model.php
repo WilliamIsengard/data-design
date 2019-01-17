@@ -9,48 +9,52 @@
 			<h2>Conceptual Model</h2>
 				<h3>Entities & Attributes</h3>
 					<ul>
-						<li><strong>Entity- User</strong>
+						<li><strong>Profile</strong>
 							<ul>
-								<li>userId (Primary Key)</li>
-								<li>userFirstName</li>
-								<li>userLastName</li>
-								<li>userAge</li>
-								<li>userCurrentEmployer</li>
-								<li>userEducation</li>
+								<li>profileId (Primary Key)</li>
+								<li>profileActivationToken</li>
+								<li>profileCurrentEmployer</li>
+								<li>profileConnectionId</li>
+								<li>profileEducation</li>
+								<li>profileEmail</li>
+								<li>profileEmployeeId</li>
+								<li>profileFirstName</li>
+								<li>profileHash</li>
+								<li>profileLastName</li>
+								<li>profileLocation</li>
 							</ul>
 						</li>
-						<li><strong>Entity- Employer</strong>
+						<li><strong>Employer</strong>
 							<ul>
-								<li>Attribute</li>
-								<li>Attribute</li>
-								<li>Attribute</li>
-								<li>Attribute</li>
-								<li>Attribute</li>
+								<li>employerId (Primary Key)</li>
+								<li>employerFoundedDate</li>
+								<li>employerIndustry</li>
+								<li>employerLocation</li>
+								<li>employerName</li>
+								<li>employerType</li>
+								<li>employerWebsite</li>
 							</ul>
 						</li>
-						<li><strong>Entity- Image</strong>
+						<li><strong>Connection</strong>
 							<ul>
-								<li>Attribute</li>
-								<li>Attribute</li>
-								<li>Attribute</li>
-								<li>Attribute</li>
-								<li>Attribute</li>
+								<li>connectionId (Primary Key)</li>
+								<li>connectionProfileConnectionId (Foreign Key)</li>
+								<li>connectionProfileID (Foreign Key)</li>
+								<li>connectionDate</li>
 							</ul>
 						</li>
-						<li><strong>Entity- Comment</strong>
+						<li><strong>Employee</strong>
 							<ul>
-								<li>Attribute</li>
-								<li>Attribute</li>
-								<li>Attribute</li>
-								<li>Attribute</li>
-								<li>Attribute</li>
+								<li>employeeId (Primary Key)</li>
+								<li>employeeIdprofileEmployeeId (Foreign Key)</li>
+								<li>employeeIdDate</li>
 							</ul>
 						</li>
 					</ul>
 				<h3>Relationships</h3>
 					<ul>
-						<li>Relationship</li>
-						<li>Relationship</li>
+						<li>One <strong>Profile</strong> can have many <strong>Employers -(1 to n)</strong></li>
+						<li>one <strong>Employer</strong> can have many <strong>Employees -(1 to n)</strong></li>
 						<li>Relationship</li>
 						<li>Relationship</li>
 					</ul>
