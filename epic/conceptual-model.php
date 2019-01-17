@@ -47,10 +47,10 @@
 						</ul>
 				<h3>Relationships</h3>
 					<ul>
+						<li>One <strong>Profile</strong> can have many <strong>Connections -(1 to n)</strong></li>
 						<li>One <strong>Profile</strong> can have many <strong>Employers -(1 to n)</strong></li>
-						<li>one <strong>Employer</strong> can have many <strong>Employees -(1 to n)</strong></li>
-						<li>Relationship</li>
-						<li>Relationship</li>
+						<li>One <strong>Employer</strong> can have many <strong>Employees -(1 to n)</strong></li>
+						<li>Many <strong>Profiles</strong> can have many <strong>Connections -(m to n)</strong></li>
 					</ul>
 			<a href="./index.php">Home Page</a>
 	</body>
