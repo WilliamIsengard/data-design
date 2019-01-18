@@ -17,6 +17,8 @@ UPDATE profile SET profileCurrentEmployer = "CNM Stemulus" WHERE profileId = UNH
 
 SELECT profileLastName, profileFirstName, profileEmail from profile WHERE profileId = UNHEX("b8c280001bc74e0ca5c0b47876e0f1fa");
 
+SELECT profileLastName, profileFirstName, profileEmail from profile WHERE profileId = UNHEX("4975a09597d64f948b0fc027614cd1ba");
+
 SELECT profileLastName, profileFirstName, profileEducation from profile WHERE profileCurrentEmployer LIKE "%CNM%";
 
 DELETE FROM profile WHERE profileId = UNHEX("b8c280001bc74e0ca5c0b47876e0f1fa");
