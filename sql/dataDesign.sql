@@ -35,11 +35,9 @@ CREATE TABLE employer (
 );
 
 CREATE TABLE connection (
-	connectionID BINARY(16) NOT NULL,
 	connectionSecondProfileId BINARY(16) NOT NULL,
 	connectionProfileId BINARY(16) NOT NULL,
 	connectionDate DATETIME(6) NOT NULL,
 	FOREIGN KEY(connectionProfileId) REFERENCES profile(profileId),
-	FOREIGN KEY(connectionSecondProfileId) REFERENCES profile(profileId),
-	PRIMARY KEY(connectionID)
+	FOREIGN KEY(connectionSecondProfileId) REFERENCES profile(profileId)
 );
