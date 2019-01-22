@@ -30,7 +30,7 @@
 							<li>employerType</li>
 							<li>employerWebsite</li>
 						</ul>
-					<h4>Employer</h4>
+					<h4>Post</h4>
 						<ul>
 							<li>postId (Primary Key)</li>
 							<li>postProfileId (Foreign Key)</li>
@@ -47,6 +47,7 @@
 					<ul>
 						<li>Many <strong>Profiles</strong> can have many <strong>Connections -(m to n)</strong></li>
 						<li>Many <strong>Profiles</strong> can have many <strong>Employers -(m to n)</strong></li>
+						<li>One <strong>Profile</strong> can have many <strong>Posts -(1 to n)</strong></li>
 						<li>Many <strong>Connections</strong> can have many <strong>Profiles -(m to n)</strong></li>
 					</ul>
 				<h3>Entity Relationship Diagram</h3>
