@@ -41,3 +41,13 @@ CREATE TABLE connection (
 	FOREIGN KEY(connectionProfileId) REFERENCES profile(profileId),
 	FOREIGN KEY(connectionSecondProfileId) REFERENCES profile(profileId)
 );
+
+CREATE TABLE post (
+	postId BINARY(16) NOT NULL,
+	postProfileId BINARY(16) NOT NULL,
+	postContent VARCHAR(500) NOT NULL,
+	postDate DATETIME(6) NOT NULL,
+	UNIQUE(postId),
+	PRIMARY KEY(postId),
+	FOREIGN KEY(postProfileId) REFERENCES profile(profileId)
+);

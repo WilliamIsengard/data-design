@@ -30,6 +30,13 @@
 							<li>employerType</li>
 							<li>employerWebsite</li>
 						</ul>
+					<h4>Employer</h4>
+						<ul>
+							<li>postId (Primary Key)</li>
+							<li>postProfileId (Foreign Key)</li>
+							<li>postContent</li>
+							<li>postDate</li>
+						</ul>
 					<h4>Connection</h4>
 						<ul>
 							<li>connectionSecondProfileId (Foreign Key)</li>

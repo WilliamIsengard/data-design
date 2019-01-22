@@ -13,6 +13,9 @@ VALUES (UNHEX("6d7065c572b848188d08c2e60d5547b8"), "2013", "Technology", "Albuqu
 INSERT INTO connection (connectionSecondProfileId, connectionProfileId, connectionDate)
 VALUES (UNHEX("9706d3175c974178a23a1905cffeb071"), UNHEX("4975a09597d64f948b0fc027614cd1ba"), NOW())
 
+INSERT INTO post (postId, postProfileId, postContent, postDate)
+VALUES (UNHEX("36256931db0146bca9d79268b16881a3"), UNHEX("4975a09597d64f948b0fc027614cd1ba"), "This is my example post.", NOW())
+
 UPDATE profile SET profileCurrentEmployer = "CNM Stemulus" WHERE profileId = UNHEX("b8c280001bc74e0ca5c0b47876e0f1fa");
 
 SELECT profileLastName, profileFirstName, profileEmail from profile WHERE profileId = UNHEX("b8c280001bc74e0ca5c0b47876e0f1fa");
@@ -22,3 +25,18 @@ SELECT profileLastName, profileFirstName, profileEmail from profile WHERE profil
 SELECT profileLastName, profileFirstName, profileEducation from profile WHERE profileCurrentEmployer LIKE "%CNM%";
 
 DELETE FROM profile WHERE profileId = UNHEX("b8c280001bc74e0ca5c0b47876e0f1fa");
+
+SELECT post.postId, post.postProfileId, post.postContent, post.postDate
+FROM post
+INNER JOIN profile
+ON post.postProfileId = profile.profileId
+WHERE post.postContent = "This is my example post."
+
+SELECT profile.profileFirstName, profile.profileLastName, post.postContent, post.postDate
+FROM post
+INNER JOIN profile
+ON post.postProfileId = profile.profileId
+WHERE post.postContent = "This is my example post."
+
+SELECT count(*) FROM profile
+WHERE  profileCurrentEmployer LIKE "%CNM%"
