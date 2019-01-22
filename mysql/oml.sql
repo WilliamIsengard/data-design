@@ -2,6 +2,9 @@ INSERT INTO profile (profileId, profileActivationToken, profileCurrentEmployer, 
 VALUES (UNHEX("b8c280001bc74e0ca5c0b47876e0f1fa"), "nananananananananananananananana", "CNM", "Doctor", "test@test.com", "John", "nanananananananananananananananananananananananananananananananananananananananananananananananan", "Doe", "Albuquerque_NM");
 
 INSERT INTO profile (profileId, profileActivationToken, profileCurrentEmployer, profileEducation, profileEmail, profileFirstName, profileHash, profileLastName, profileLocation)
+VALUES (UNHEX("d6f8ad26ece04b8b8a143ad818489ac6"), "nananananananananananananananana", "Ford", "Mechanic", "fake@test.com", "Joann", "nanananananananananananananananananananananananananananananananananananananananananananananananan", "Smith", "Corrales NM");
+
+INSERT INTO profile (profileId, profileActivationToken, profileCurrentEmployer, profileEducation, profileEmail, profileFirstName, profileHash, profileLastName, profileLocation)
 VALUES (UNHEX("4975a09597d64f948b0fc027614cd1ba"), "papapapapapapapapapapapapapapapa", "FatPipe", "Web Developer", "email@test.com", "Whitney", "papapapapapapapapapapapapapapapapapapapapapapapapapapapapapapapapapapapapapapapapapapapapapapapap", "Someone", "Santa Fe NM");
 
 INSERT INTO profile (profileId, profileActivationToken, profileCurrentEmployer, profileEducation, profileEmail, profileFirstName, profileHash, profileLastName, profileLocation)
@@ -24,7 +27,7 @@ SELECT profileLastName, profileFirstName, profileEmail from profile WHERE profil
 
 SELECT profileLastName, profileFirstName, profileEducation from profile WHERE profileCurrentEmployer LIKE "%CNM%";
 
-DELETE FROM profile WHERE profileId = UNHEX("b8c280001bc74e0ca5c0b47876e0f1fa");
+DELETE FROM profile WHERE profileId = UNHEX("d6f8ad26ece04b8b8a143ad818489ac6");
 
 SELECT post.postId, post.postProfileId, post.postContent, post.postDate
 FROM post
